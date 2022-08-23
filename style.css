@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open-Sans', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body > * {
+    padding: 40px;
+}
+
+.top {
+    background: url("/images/bg-hero-desktop.svg");
+    background-color:  hsl(193, 100%, 96%);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+header > button {
+    border-radius: 30px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+header > button:hover{
+    color: rgba(0,0,0, 0.5);
+    cursor: pointer;
+
+}
+
+header > img {
+    width: 15%;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+}
+
+.top-content > * {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.tc-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-right: 110px;
+    width: 40%;
+}
+
+.but{
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 40%;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.but:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+/*Footer code start*/
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 15%;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 1;
+}
+
+
+.col {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.col > * {
+    padding: 5%;
+}
+
+a {
+    color: hsl(208, 11%, 55%);
+    text-decoration: none;
+}
+
+.col > a:hover {
+    text-decoration:underline;
+}
+
+a > i:hover {
+    color:  hsl(322, 100%, 66%);
+}
+
+/*Footer Code end*/
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    border: none;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 95%), -5px -5px 10px hsl(0, 0%, 95%);
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.container > div {
+    padding: 5%;
+    width: 40%;
+    padding-top: 7%;
+    text-align: left;
+}
+
+
+div > strong {
+    font-size: 1.5em;
+}
+
+div > p {
+    font-size: 1.1em;
+    color: hsl(208, 11%, 55%);
+}
+
+.build-community {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 150px;
+    margin-bottom: -125px;
+    box-shadow: 1px 1px 1px hsl(0, 0%, 90%), -1px -5px 10px hsl(0, 0%, 95%);
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 2;
+    position: relative;
+}
+
+.butt {
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 50%;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.butt:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
